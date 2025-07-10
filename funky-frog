@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Funky Frog 🐸</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #d0f4de, #fff9c4);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #2e7d32;
+    }
+    h1 {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 22px;
+      margin-top: 5px;
+    }
+    .frog {
+      font-size: 90px;
+      animation: bounce 1s infinite alternate;
+    }
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-20px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="frog">🐸</div>
+  <h1>Funky Frog’s Pad</h1>
+  <p>Ribbit. Bounce. Vibe. Repeat. 🎵</p>
+  <p>Welcome to the grooviest lily pad on the web.</p>
+</body>
+</html>
